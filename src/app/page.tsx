@@ -121,12 +121,19 @@ export default function HomePage() {
                     variant="contained"
                     color="primary"
                     size="large"
+                    href="mailto:hello@onepingfan.com?subject=Discovery%20call"
                     endIcon={<ArrowForwardIcon />}
                     sx={{ minWidth: 220, fontWeight: 700 }}
                   >
                     Schedule a discovery call
                   </Button>
-                  <Button variant="outlined" color="secondary" size="large" sx={{ minWidth: 220, fontWeight: 700 }}>
+                  <Button
+                    variant="outlined"
+                    color="secondary"
+                    size="large"
+                    href="#programs"
+                    sx={{ minWidth: 220, fontWeight: 700 }}
+                  >
                     View our methodology
                   </Button>
                 </Stack>
@@ -269,7 +276,11 @@ export default function HomePage() {
         </Grid>
       </Container>
 
-      <Box component="section" sx={{ bgcolor: 'primary.main', color: 'primary.contrastText', py: { xs: 8, md: 10 } }}>
+      <Box
+        component="section"
+        id="programs"
+        sx={{ bgcolor: 'primary.main', color: 'primary.contrastText', py: { xs: 8, md: 10 } }}
+      >
         <Container maxWidth="lg">
           <Grid container spacing={4} alignItems="center">
             <Grid item xs={12} md={6}>
@@ -332,7 +343,12 @@ export default function HomePage() {
               <Typography variant="body1" color="text.secondary">
                 We measure success by shipped products, activated users, and the governance that keeps systems reliable.
               </Typography>
-              <Link href="#" underline="hover" color="primary.main" sx={{ display: 'inline-flex', alignItems: 'center', gap: 1, fontWeight: 700 }}>
+              <Link
+                href="mailto:hello@onepingfan.com?subject=Portfolio%20request"
+                underline="hover"
+                color="primary.main"
+                sx={{ display: 'inline-flex', alignItems: 'center', gap: 1, fontWeight: 700 }}
+              >
                 See full portfolio
                 <ArrowForwardIcon fontSize="small" />
               </Link>
@@ -369,7 +385,15 @@ export default function HomePage() {
         </Grid>
       </Container>
 
-      <Box component="section" sx={{ bgcolor: 'background.paper', py: { xs: 8, md: 10 }, borderTop: (theme) => `1px solid ${theme.palette.grey[200]}` }}>
+      <Box
+        component="section"
+        id="contact"
+        sx={{
+          bgcolor: 'background.paper',
+          py: { xs: 8, md: 10 },
+          borderTop: (theme) => `1px solid ${theme.palette.grey[200]}`,
+        }}
+      >
         <Container maxWidth="lg">
           <Grid container spacing={4} alignItems="center">
             <Grid item xs={12} md={7}>
@@ -382,10 +406,21 @@ export default function HomePage() {
                   team to deliver fast, safe, and measurable outcomes.
                 </Typography>
                 <Stack direction={{ xs: 'column', sm: 'row' }} spacing={2} alignItems={{ xs: 'stretch', sm: 'center' }}>
-                  <Button variant="contained" color="secondary" size="large" endIcon={<ArrowForwardIcon />}>
+                  <Button
+                    variant="contained"
+                    color="secondary"
+                    size="large"
+                    href="mailto:hello@onepingfan.com?subject=Venture%20conversation"
+                    endIcon={<ArrowForwardIcon />}
+                  >
                     Start a conversation
                   </Button>
-                  <Button variant="text" color="primary" size="large">
+                  <Button
+                    variant="text"
+                    color="primary"
+                    size="large"
+                    href="mailto:hello@onepingfan.com?subject=One%20pager%20request"
+                  >
                     Download our one-pager
                   </Button>
                 </Stack>
