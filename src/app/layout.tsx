@@ -4,15 +4,15 @@ import ThemeRegistry from '@/theme/ThemeRegistry';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'One Ping Fan | AI Venture Studio',
+  title: 'One Ping Fan Venture LLC | AI Venture Studio',
   description:
-    'One Ping Fan is an AI venture studio designing, validating, and scaling purposeful AI companies with durable fundamentals.',
+    'One Ping Fan Venture LLC is an AI Venture Studio focused on rapidly prototyping, validating, and scaling AI-native products.',
   openGraph: {
-    title: 'One Ping Fan | AI Venture Studio',
+    title: 'One Ping Fan Venture LLC | AI Venture Studio',
     description:
-      'Partner with One Ping Fan to build AI-native ventures with strong product strategy, rapid experimentation, and enterprise readiness.',
-    url: 'https://onepingfan.com',
-    siteName: 'One Ping Fan',
+      'An AI Venture Studio that builds and operates its own products, spinning out independent companies once early signals of product-market fit are demonstrated.',
+    url: 'https://onepingfanventure.com',
+    siteName: 'One Ping Fan Venture LLC',
     type: 'website',
   },
 };
